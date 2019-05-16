@@ -30,4 +30,4 @@ New installation logic by finding target file with GNU find.
 
 * Copyright (C) 2019 nazuaf11 <pojefauzan@yahoo.com>
 * Any issue or pull request is welcomed.
-* Star this module at [GitHub]
+* Star this module at [GitHub] <https://github.com/nazuaf11/wifi-2.4ghz-gemini>
