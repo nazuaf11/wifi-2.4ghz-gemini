@@ -2,5 +2,5 @@ id=Force_2.4Ghz_Wifi
 name=Force_2.4Ghz_Wifi for Mi 5 Gemini
 version=1.2
 versionCode=1
-author=pojefauzan
+author=nazuaf11
 description=This will force PdaNet to use 2.4Ghz band WiFi for WiFi Direct Hotspot. This wil be useful for laptop with no 5Ghz WiFi band support.
