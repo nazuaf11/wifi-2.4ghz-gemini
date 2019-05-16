@@ -141,7 +141,7 @@ on_install() {
     mkdir -p `dirname $MODPATH$CFG`
     ui_print "- Mounting $CFG"
     [[ -f /sbin/.magisk/mirror$SELECTPATH ]] && cp -af /sbin/.magisk/mirror$SELECTPATH $MODPATH$SELECTPATH || cp -af $SELECTPATH $MODPATH$SELECTPATH
-    ui_print "- Starting modifiy"
+    ui_print "- Starting to modify the configuration"
     sed -i 's/BandCapability=1/g;s/BandCapability=0/g' $MODPATH$SELECTPATH
     [[ -z $(grep BandCapability $MODPATH$SELECTPATH) ]] && sed -i 's/^END$/BandCapability=1\nEND/g' $MODPATH$SELECTPATH
   }
