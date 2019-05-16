@@ -146,7 +146,7 @@ on_install() {
     [[ -z $(grep BandCapability $MODPATH$SELECTPATH) ]] && sed -i 's/^END$/BandCapability=1\nEND/g' $MODPATH$SELECTPATH
   }
   done
-  [[ -z $SELECTPATH ]] && abort "- Installation FAILED. Your device didn't support WCNSS_qcom_cfg.ini." || { mkdir -p $MODPATH/system; mv -f $MODPATH/vendor $MODPATH/system/vendor;}
+  [[ -z $SELECTPATH ]] && abort "- Installation failed. Your device do not support WCNSS_qcom_cfg.ini." || { mkdir -p $MODPATH/system; mv -f $MODPATH/vendor $MODPATH/system/vendor;}
 }
 
 # Only some special files require specific permissions
