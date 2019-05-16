@@ -1,4 +1,4 @@
-# Magisk Force 2.4GHz band WifI
+# Magisk Force 2.4GHz band WiFi
 
 Prefer (Force) Using 2.4Ghz Band WiFi (gemini)
 
