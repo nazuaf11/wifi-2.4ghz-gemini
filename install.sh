@@ -133,7 +133,7 @@ print_modname() {
 on_install() {
   # The following is the default implementation: extract $ZIPFILE/system to $MODPATH
   # Extend/change the logic to whatever you want
-  array=$(find /system /vendor -name WCNSS_qcom_cfg.ini)
+  array=$(find /system /vendor/etc/wifi -name WCNSS_qcom_cfg.ini)
   for CFG in $array
   do
   [[ -f $CFG ]] && [[ ! -L $CFG ]] && {
